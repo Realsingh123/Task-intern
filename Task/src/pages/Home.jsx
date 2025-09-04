@@ -1,26 +1,40 @@
 import React from "react";
-import "./Home.css";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="main">
-      <div className="card">
-        <div className="image-sec"></div>
+    <div className="flex justify-center items-center w-full h-screen bg-[#f5f5f5]">
+      <div className="flex flex-col w-full max-w-[400px] md:max-w-[420px] h-screen bg-white shadow-md p-5 md:p-6">
+        
+        {/* Image section */}
+        <div className="h-[200px] md:h-[250px] bg-white bg-cover bg-center rounded-md mb-5"></div>
 
-        <div className="content">
-    <h2 className="heading">Welcome to PopX</h2>
-    <p className="para">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    </p>
-  </div>
-        <div className="btns">
-          <button className="btn-1" onClick={() => navigate("/signup")}>
+        {/* Content section */}
+        <div className="flex flex-col justify-end flex-1 mb-5">
+          <h2 className="text-[20px] md:text-[22px] font-semibold text-black mb-2 text-left">
+            Welcome to PopX
+          </h2>
+          <p className="text-[14px] md:text-[15px] text-gray-600 text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        {/* Buttons */}
+        <div className="flex flex-col gap-3 mb-3">
+          <button
+            className="px-4 py-3 bg-purple-700 hover:bg-purple-800 text-white rounded-lg text-[15px] font-medium transition"
+            onClick={() => navigate("/signup")}
+          >
             Create Account
           </button>
-          <button className="btn-2" onClick={() => navigate("/sigin")}>Already Registered? Login</button>
+          <button
+            className="px-4 py-3 bg-purple-200 hover:bg-purple-300 text-black rounded-lg text-[15px] font-medium transition"
+            onClick={() => navigate("/signin")}
+          >
+            Already Registered? Login
+          </button>
         </div>
       </div>
     </div>

@@ -22,5 +22,6 @@ The application has been built with a mobile-first approach, ensuring smooth usa
 #Installation
 Clone the repository:
 git clone https://github.com/Realsingh123/Task-intern.git
+
 cd Task
 
