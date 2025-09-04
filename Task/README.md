@@ -18,20 +18,20 @@ Mobile-Optimized - Designed to be fully responsive and pixel-perfect on smaller 
 
 The application has been built with a mobile-first approach, ensuring smooth usage on smartphones while maintaining adaptability for larger screens.
 
-#screenshots
+# Screenshots
 
 ### Landing Page
-![Landing Screenshot](../assets/Screenshots/Landing page.png)
+![Landing Screenshot](assets/Screenshots/Landing.png)
 
 ### Signup Page
-![Signin page Screenshot](../assets/Screenshots/Signup.png)
+![Signup Screenshot](assets/Screenshots/Signup.png)
 
-### Signup Page
-![Signin page Screenshot](../assets/screenshots/signin.png)
+### Signin Page
+![Signin Screenshot](assets/Screenshots/Signin.png)
 
-### Account page 
+### Account Page
+![Account Screenshot](assets/Screenshots/Account.png)
 
-![Account page Screenshot](../assets/screenshots/Account.png)
 
 
 #Installation
