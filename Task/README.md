@@ -18,21 +18,6 @@ Mobile-Optimized - Designed to be fully responsive and pixel-perfect on smaller 
 
 The application has been built with a mobile-first approach, ensuring smooth usage on smartphones while maintaining adaptability for larger screens.
 
-# Screenshots
-
-### Landing Page
-![Landing Screenshot](Task/src/assets/Screenshots/Landing.png)
-
-### Signup Page
-![Signup Screenshot](Task/src/assets/Screenshots/Signup.png)
-
-### Signin Page
-![Signin Screenshot](Task/src/assets/Screenshots/Signin.png)
-
-### Account Page
-![Account Screenshot](Task/src/assets/Screenshots/Account.png)
-
-
 
 #Installation
 Clone the repository:
