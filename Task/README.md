@@ -21,16 +21,16 @@ The application has been built with a mobile-first approach, ensuring smooth usa
 # Screenshots
 
 ### Landing Page
-![Landing Screenshot](assets/Screenshots/Landing.png)
+![Landing Screenshot](Task/src/assets/Screenshots/Landing.png)
 
 ### Signup Page
-![Signup Screenshot](assets/Screenshots/Signup.png)
+![Signup Screenshot](Task/src/assets/Screenshots/Signup.png)
 
 ### Signin Page
-![Signin Screenshot](assets/Screenshots/Signin.png)
+![Signin Screenshot](Task/src/assets/Screenshots/Signin.png)
 
 ### Account Page
-![Account Screenshot](assets/Screenshots/Account.png)
+![Account Screenshot](Task/src/assets/Screenshots/Account.png)
 
 
 
